@@ -1,7 +1,7 @@
 function out_data = random_initial_k(input_u, dt_control, is_reset, init_p, k_mD)
-    % ---------------------------------------------------------
+    % -----------------------------------------------------------------
     % Python RL Environment use MRST Step-by-Step Solver
-    % ---------------------------------------------------------
+    % -----------------------------------------------------------------
 
     % Load MRST Module
     if isempty(whos('global', 'mrst_loaded'))
