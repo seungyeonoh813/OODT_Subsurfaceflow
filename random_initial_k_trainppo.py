@@ -4,7 +4,7 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import BaseCallback
 from random_initial_k_reservoir import ReservoirEnv
 
-# --- Training curve (Callback) ---
+# --- Training curve (Callback) -----
 class TrainingCurveCallback(BaseCallback):
     def __init__(self, verbose=0):
         super().__init__(verbose)
