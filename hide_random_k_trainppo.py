@@ -108,7 +108,7 @@ ax2.set_ylabel('Injection Rate (m3/day)')
 ax2.set_ylim(100, 200)
 ax2.legend(loc='lower right', fontsize='small'); ax2.grid(True, alpha=0.3)
 
-# 3. Max Pressure
+# 3. Max Pressures
 ax3 = plt.subplot(3, 1, 3, sharex=ax2)
 for i in range(n_test): 
     ax3.plot(time_axis, arr_p[i], '-', alpha=0.3)

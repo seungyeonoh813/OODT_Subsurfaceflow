@@ -16,7 +16,7 @@ class ReservoirEnv(gym.Env):
 
         self.action_space = spaces.Box(low=-1.0, high=1.0, shape=(1,), dtype=np.float32)
         
-        # Observation Space: 1024 (32x32 Grid ) + 1(random parameter k) = 1025
+        # Observation Space: 1024 (32x32 Grid ) + 1(random parameter k) = 1025-
         self.observation_space = spaces.Box(low=-np.inf, high=np.inf, shape=(1025,), dtype=np.float32)
 
         if ReservoirEnv.eng is None:
